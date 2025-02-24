@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 #file added outside
+#adding new docker comment
 FROM node:lts-alpine
 WORKDIR /app
 COPY . .
